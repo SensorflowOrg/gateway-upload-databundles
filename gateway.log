@@ -1,0 +1,1072 @@
+11:55:32.840 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+11:55:33.208 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 66172 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+11:55:33.209 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+11:55:33.210 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - No active profile set, falling back to default profiles: default
+11:55:33.978 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.072 seconds (JVM running for 1.969)
+11:56:03.879 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+11:56:04.230 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 66319 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+11:56:04.231 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+11:56:04.232 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - No active profile set, falling back to default profiles: default
+11:56:05.068 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.13 seconds (JVM running for 1.97)
+12:18:15.251 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:18:15.643 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 72208 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:18:15.646 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:18:15.647 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - No active profile set, falling back to default profiles: default
+12:18:15.766 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:18:15.801 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.sensorflow.GatewayUploadDataBundlesApplication]; nested exception is java.io.FileNotFoundException: class path resource [application.yml] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: java.io.FileNotFoundException: class path resource [application.yml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:99) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:73) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:59) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:67) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:462) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:279) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:303) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 13 more
+12:19:55.473 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:19:55.901 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 72830 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:19:55.904 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:19:55.905 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:19:55.983 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:19:56.793 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:19:56.816 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 17 more
+12:20:03.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:10.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:17.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:24.794 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:31.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:38.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:45.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:52.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:20:59.794 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:06.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:13.794 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:20.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:27.794 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:34.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:41.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:48.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:21:55.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:02.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:09.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:16.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:23.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:30.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:37.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:22:44.793 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:16.432 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:23:16.893 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 73549 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:23:16.896 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:23:16.897 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: simulator
+12:23:17.011 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:23:17.814 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:23:18.288 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.79 seconds (JVM running for 2.691)
+12:23:24.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:31.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:38.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:45.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:52.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:23:59.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:06.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:13.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:20.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:27.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:34.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:41.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:48.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:24:55.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:02.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:09.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:16.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:23.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:30.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:37.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:44.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:51.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:25:58.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:05.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:12.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:19.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:26.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:33.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:40.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:47.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:26:54.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:01.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:08.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:15.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:22.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:29.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:36.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:43.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:50.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:27:57.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:04.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:11.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:18.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:25.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:32.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:39.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:46.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:28:53.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:00.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:07.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:14.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:21.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:28.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:35.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:42.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:49.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:29:56.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:03.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:10.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:17.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:24.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:31.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:38.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:45.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:52.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:30:59.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:06.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:13.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:20.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:27.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:34.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:41.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:48.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:31:55.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:02.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:09.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:16.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:23.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:30.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:37.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:44.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:51.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:32:58.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:05.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:12.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:19.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:26.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:33.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:40.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:47.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:33:54.814 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending bundles is suspended due to gateway being offline
+12:48:17.149 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:48:17.632 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 79643 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:48:17.635 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:48:17.635 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: simulator
+12:48:17.747 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:48:18.829 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+12:48:18.832 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:48:19.352 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.119 seconds (JVM running for 3.196)
+12:48:47.866 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:48:48.327 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 79862 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:48:48.329 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:48:48.329 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: simulator
+12:48:48.447 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:48:49.356 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+12:48:49.359 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:48:49.955 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.014 seconds (JVM running for 2.914)
+12:48:56.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:03.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:10.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:17.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:24.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:31.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:49:38.359 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start
+12:52:10.475 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:52:10.904 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 80915 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:52:10.907 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:52:10.907 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: simulator
+12:52:10.955 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:52:11.907 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+12:52:11.908 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:52:12.425 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.884 seconds (JVM running for 2.711)
+12:52:18.935 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+12:52:25.909 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+12:52:32.909 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+12:55:55.817 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:55:56.234 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 82015 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:55:56.236 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:55:56.236 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:55:56.310 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:55:57.127 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBundlePersistence': Unsatisfied dependency expressed through field 'databasePersistenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_GATEWAY_MAC' in value "${SENSORFLOW_GATEWAY_MAC}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+12:56:22.209 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:56:22.626 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 82174 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:56:22.628 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:56:22.628 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:56:22.745 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:56:23.535 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBundlePersistence': Unsatisfied dependency expressed through field 'databasePersistenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+12:56:49.023 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:56:49.435 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 82371 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:56:49.438 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:56:49.438 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:56:49.538 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:56:50.479 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBundlePersistence': Unsatisfied dependency expressed through field 'databasePersistenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'SENSORFLOW_REGION' in value "${SENSORFLOW_REGION}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+12:57:05.576 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:57:06.016 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 82485 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:57:06.019 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:57:06.020 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:57:06.053 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:57:06.948 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBundlePersistence': Unsatisfied dependency expressed through field 'databasePersistenceService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'LOCATION_ID' in value "${LOCATION_ID}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.sensorflow.GatewayUploadDataBundlesApplication.main(GatewayUploadDataBundlesApplication.java:14) [classes/:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databasePersistenceService': Unsatisfied dependency expressed through field 'globalSettings'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'LOCATION_ID' in value "${LOCATION_ID}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSettings': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'LOCATION_ID' in value "${LOCATION_ID}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'LOCATION_ID' in value "${LOCATION_ID}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 19 more
+12:59:04.240 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+12:59:04.635 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 83035 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+12:59:04.638 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+12:59:04.638 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+12:59:04.723 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+12:59:05.628 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+12:59:05.630 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+12:59:06.042 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.729 seconds (JVM running for 2.613)
+12:59:12.657 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+12:59:19.631 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:00:40.750 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:00:41.135 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 83678 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:00:41.137 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:00:41.137 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:00:41.233 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:00:42.128 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:00:42.129 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:00:42.618 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.806 seconds (JVM running for 2.664)
+13:00:49.156 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:00:56.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:03.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:10.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:17.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:24.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:31.129 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:38.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:45.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:52.129 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:01:59.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:06.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:13.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:20.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:27.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:34.129 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:41.131 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:48.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:55.130 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:02:59.311 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:02:59.718 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 84251 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:02:59.720 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:02:59.720 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:02:59.815 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:03:00.716 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:03:00.717 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:03:01.154 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 1.775 seconds (JVM running for 2.609)
+13:03:07.724 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:03:14.719 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:03:21.719 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:03:28.720 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:03:35.719 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:03:42.719 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:41:28.592 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:41:29.008 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 94553 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:41:29.010 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:41:29.010 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:41:29.062 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:41:30.367 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:41:30.371 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:41:30.727 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.064 seconds (JVM running for 2.92)
+13:41:37.398 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:41:37.399 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:41:37.424 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.525 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.526 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.527 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.528 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:37.529 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.373 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:41:44.374 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:41:44.377 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:44.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.373 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:41:51.373 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:41:51.376 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.478 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.479 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.480 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.481 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.483 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.483 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.485 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.485 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.486 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.486 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:51.493 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.372 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:41:58.373 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:41:58.380 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.482 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.483 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.483 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.483 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.484 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.485 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.485 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.485 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.486 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.486 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.486 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.487 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.488 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.489 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.490 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.491 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.492 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.493 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.493 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.493 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.494 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.494 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.494 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.494 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.495 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.495 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.495 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.496 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.496 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.496 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.496 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.497 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:41:58.497 [pool-2-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingService - Not sending data to timescale, gateway is offline
+13:43:45.943 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:43:46.363 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 95156 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:43:46.366 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:43:46.366 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:43:46.440 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:43:47.731 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:43:47.735 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:43:48.095 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.085 seconds (JVM running for 2.926)
+13:43:54.750 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:43:54.751 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:44:28.577 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:44:28.995 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 95429 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:44:28.998 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:44:28.998 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:44:29.069 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:44:30.392 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:44:30.397 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:44:30.783 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.143 seconds (JVM running for 2.963)
+13:44:37.425 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+13:44:37.425 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+13:44:44.399 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 10
+13:44:44.400 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 10 bundles
+13:44:51.399 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:44:58.399 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:46:57.853 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:46:58.283 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 96265 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:46:58.287 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:46:58.287 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:46:58.359 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:46:59.813 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:46:59.816 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:47:00.165 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.249 seconds (JVM running for 3.078)
+13:47:06.841 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:13.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:20.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:27.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:34.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:41.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:48.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:47:55.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:02.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:09.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:16.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:23.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:30.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:37.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:44.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:51.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:48:58.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:05.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:12.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:19.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:26.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:33.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:40.818 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:47.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:49:54.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:01.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:08.816 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:15.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:22.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:29.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:36.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:50:43.817 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:51:01.937 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:51:02.370 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 97536 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:51:02.373 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:51:02.373 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:51:02.442 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:51:04.089 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:51:04.098 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:51:04.564 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.562 seconds (JVM running for 3.402)
+13:51:11.122 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:53:30.164 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:53:30.779 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 98395 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:53:30.783 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:53:30.783 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:53:30.954 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:53:32.566 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:53:32.570 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:53:32.976 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.705 seconds (JVM running for 3.881)
+13:56:03.461 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+13:56:04.043 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 99438 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+13:56:04.047 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+13:56:04.047 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+13:56:04.163 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+13:56:05.856 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+13:56:05.860 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+13:56:06.270 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.711 seconds (JVM running for 3.82)
+13:56:12.887 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:19.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:26.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:33.862 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:40.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:47.862 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:56:54.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:01.862 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:08.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:15.861 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:22.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:29.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:36.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:43.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:50.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:57:57.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:58:04.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+13:58:11.860 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:25:21.791 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+15:25:22.279 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 147916 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+15:25:22.282 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:25:22.283 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+15:25:22.400 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+15:25:23.867 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+15:25:23.871 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+15:25:24.250 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 2.382 seconds (JVM running for 3.315)
+15:25:30.880 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 50
+15:25:30.880 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 50 bundles
+15:25:37.873 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 26
+15:25:37.873 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: sending 26 bundles
+15:25:44.872 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:25:51.872 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:37:11.645 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Starting Sensorflow Gateway data bundles upload
+15:37:12.573 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Starting GatewayUploadDataBundlesApplication on thinhpham with PID 153552 (/home/thinh.pham_littlebig/repos/gateway-upload-databundles/target/classes started by thinh.pham_littlebig in /home/thinh.pham_littlebig/repos/gateway-upload-databundles)
+15:37:12.588 [main] DEBUG com.sensorflow.GatewayUploadDataBundlesApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+15:37:12.588 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - The following profiles are active: local
+15:37:12.795 [background-preinit] WARN  org.springframework.http.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+15:37:15.634 [main] DEBUG com.sensorflow.gateway.health.OnlineCheckService - Online health checker is pinging this address to check for online: dev-backend.hasura.app
+15:37:15.643 [main] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Starting Periodic resend
+15:37:16.592 [main] INFO  com.sensorflow.GatewayUploadDataBundlesApplication - Started GatewayUploadDataBundlesApplication in 4.832 seconds (JVM running for 6.328)
+15:37:22.657 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:37:29.643 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:37:36.643 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:37:43.643 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0
+15:37:50.647 [pool-4-thread-1] INFO  com.sensorflow.backendcom.streaming.StreamingServicePeriodicResend - Databundle resend: start 0

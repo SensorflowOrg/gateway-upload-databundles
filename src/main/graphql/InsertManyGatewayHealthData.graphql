@@ -1,0 +1,5 @@
+mutation insertManyGatewayHealthData($input: [sensorflow_gateway_health_data_insert_input!]!) {
+    insert_sensorflow_gateway_health_data(objects: $input) {
+        affected_rows
+    }
+}

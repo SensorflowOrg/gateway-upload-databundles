@@ -1,0 +1,5 @@
+mutation UpsertGatewayInfo($input: [sensorflow_gateways_insert_input!]!) {
+    insert_sensorflow_gateways(objects: $input, on_conflict: {constraint: gateways_pkey, update_columns: [gatewayName,ethernetMacAddress,gatewayMac,networkConnectionStatus,positionId,version,wifiMacAddress]}) {
+        affected_rows
+    }
+}

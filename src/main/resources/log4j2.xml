@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" xmlns="http://logging.apache.org/log4j/2.14.1/config"
+               packages="com.newrelic.logging.log4j2">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingRandomAccessFile name="RollingRandomAccessFile" fileName="gateway-bundles-upload.log"
+                                 filePattern="logArchive/%d{MM-dd-yyyy}-gateway-bundles-upload-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingRandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <Root level="WARN">
+            <AppenderRef ref="Async"/>
+            <AppenderRef ref="RollingRandomAccessFile"/>
+            <AppenderRef ref="Console"/>
+
+        </Root>
+        <logger name="com.zaxxer.hikari" level="WARN" />
+        <logger name="org.springframework.boot" level="ERROR"/>
+        <logger name="com.sensorflow" level="DEBUG"/>
+        <logger name="org.apache" level="ERROR"/>
+        <logger name="com.sensorflow.backendcom.newrelic.ErrorReporter" level="OFF"/>
+        <logger name="com.sensorflow.backendcom.newrelic.EventReporter" level="OFF"/>
+    </Loggers>
+</Configuration>

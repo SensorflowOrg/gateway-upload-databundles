@@ -1,0 +1,5 @@
+mutation InsertManyNodeMetaData($input: [sensorflow_node_meta_data_insert_input!]!) {
+    insert_sensorflow_node_meta_data(objects: $input) {
+        affected_rows
+    }
+}

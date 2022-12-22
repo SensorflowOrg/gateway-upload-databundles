@@ -1,0 +1,5 @@
+mutation insertManyNodeMeasurements($input: [sensorflow_node_measurements_insert_input!]!) {
+    insert_sensorflow_node_measurements(objects: $input) {
+        affected_rows
+    }
+}

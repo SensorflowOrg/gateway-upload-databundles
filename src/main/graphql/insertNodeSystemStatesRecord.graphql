@@ -1,0 +1,5 @@
+mutation insertNodeSystemStatesRecord($systemStates: [sensorflow_node_system_states_insert_input!]! ) {
+    insert_sensorflow_node_system_states(objects: $systemStates, on_conflict: {constraint: node_system_states_pkey, update_columns: [radioTxS]}) {
+        affected_rows
+    }
+}

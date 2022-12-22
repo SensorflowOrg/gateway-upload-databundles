@@ -1,0 +1,5 @@
+mutation insertManyNodeJoinData($input: [sensorflow_node_join_data_insert_input!]!) {
+    insert_sensorflow_node_join_data(objects: $input) {
+        affected_rows
+    }
+}
